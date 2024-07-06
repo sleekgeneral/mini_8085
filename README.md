@@ -1,8 +1,8 @@
 # Mini 8085
-This repository contains a mini project developed using the 8085 microprocessor. The project demonstrates the implementation of 18 essential operations including MOV, ACI, MVI, JUMP, CALL, ADC, ANA, and more. The primary objective of this project is to provide a practical understanding of how these operations work on the 8085 microprocessor.
+This repository contains a mini project developed using the 8085 microprocessor. The project demonstrates the implementation of 20 essential operations including MOV, ACI, MVI, JUMP, CALL, ADC, ANA, and more. The primary objective of this project is to provide a practical understanding of how these operations work on the 8085 microprocessor.
 
 ## Operations Implemented
-This project includes the following 20 operations:
+This project includes the following 20 operations and it can perform 126 op codes:
 
 MOV R1,R2
 
