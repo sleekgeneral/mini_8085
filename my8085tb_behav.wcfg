@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="my8085tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="my8085tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="24.000001 us"></ZoomEndTime>
+      <Cursor1Time time="10.715804 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="294"></NameColumnWidth>
+      <ValueColumnWidth column_width="163"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/my8085tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/RST_" type="logic">
+      <obj_property name="ElementShortName">RST_</obj_property>
+      <obj_property name="ObjectShortName">RST_</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/READY" type="logic">
+      <obj_property name="ElementShortName">READY</obj_property>
+      <obj_property name="ObjectShortName">READY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/HOLD" type="logic">
+      <obj_property name="ElementShortName">HOLD</obj_property>
+      <obj_property name="ObjectShortName">HOLD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/SID" type="logic">
+      <obj_property name="ElementShortName">SID</obj_property>
+      <obj_property name="ObjectShortName">SID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/INTR" type="logic">
+      <obj_property name="ElementShortName">INTR</obj_property>
+      <obj_property name="ObjectShortName">INTR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/TRAP" type="logic">
+      <obj_property name="ElementShortName">TRAP</obj_property>
+      <obj_property name="ObjectShortName">TRAP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/RST75" type="logic">
+      <obj_property name="ElementShortName">RST75</obj_property>
+      <obj_property name="ObjectShortName">RST75</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/RST65" type="logic">
+      <obj_property name="ElementShortName">RST65</obj_property>
+      <obj_property name="ObjectShortName">RST65</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/RST55" type="logic">
+      <obj_property name="ElementShortName">RST55</obj_property>
+      <obj_property name="ObjectShortName">RST55</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/ADDRDATA" type="array">
+      <obj_property name="ElementShortName">ADDRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[15:8]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[15:8]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/CLK_OUT" type="logic">
+      <obj_property name="ElementShortName">CLK_OUT</obj_property>
+      <obj_property name="ObjectShortName">CLK_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/RST_OUT" type="logic">
+      <obj_property name="ElementShortName">RST_OUT</obj_property>
+      <obj_property name="ObjectShortName">RST_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/IOM_" type="logic">
+      <obj_property name="ElementShortName">IOM_</obj_property>
+      <obj_property name="ObjectShortName">IOM_</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/S1" type="logic">
+      <obj_property name="ElementShortName">S1</obj_property>
+      <obj_property name="ObjectShortName">S1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/S0" type="logic">
+      <obj_property name="ElementShortName">S0</obj_property>
+      <obj_property name="ObjectShortName">S0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/INTA_" type="logic">
+      <obj_property name="ElementShortName">INTA_</obj_property>
+      <obj_property name="ObjectShortName">INTA_</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/WR_" type="logic">
+      <obj_property name="ElementShortName">WR_</obj_property>
+      <obj_property name="ObjectShortName">WR_</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/RD_" type="logic">
+      <obj_property name="ElementShortName">RD_</obj_property>
+      <obj_property name="ObjectShortName">RD_</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/ALE" type="logic">
+      <obj_property name="ElementShortName">ALE</obj_property>
+      <obj_property name="ObjectShortName">ALE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/HLDA" type="logic">
+      <obj_property name="ElementShortName">HLDA</obj_property>
+      <obj_property name="ObjectShortName">HLDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/SOD" type="logic">
+      <obj_property name="ElementShortName">SOD</obj_property>
+      <obj_property name="ObjectShortName">SOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/addr" type="array">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/datain" type="array">
+      <obj_property name="ElementShortName">datain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/regdata" type="array">
+      <obj_property name="ElementShortName">regdata[7:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">regdata[7:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/pcin" type="array">
+      <obj_property name="ElementShortName">pcin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/pcdata" type="array">
+      <obj_property name="ElementShortName">pcdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/iregdata" type="array">
+      <obj_property name="ElementShortName">iregdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iregdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/flagout" type="array">
+      <obj_property name="ElementShortName">flagout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">flagout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/cstate" type="array">
+      <obj_property name="ElementShortName">cstate[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cstate[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/nstate" type="array">
+      <obj_property name="ElementShortName">nstate[5:0]</obj_property>
+      <obj_property name="ObjectShortName">nstate[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/fetch" type="array">
+      <obj_property name="ElementShortName">fetch[2:0]</obj_property>
+      <obj_property name="ObjectShortName">fetch[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/mem_wr" type="array">
+      <obj_property name="ElementShortName">mem_wr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/my8085tb/uut/mem_rd" type="array">
+      <obj_property name="ElementShortName">mem_rd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rd[1:0]</obj_property>
+   </wvobject>
+</wave_config>
